@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(/Images/image1.jpg);
+}
+.conteneur1 {
+    width: 40%;
+    margin: auto;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+.titre1 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+.par1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+.lien1 {
+    display: block;
+    width: 25%;
+    border: 3px solid darkorange;
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: .3s;
+}
+.lien1:hover {
+    background-color: transparent;
+    border-color: white;
+    transition: .3s;
+}
+.span {
+    color: orange;
+}
+.conteneur2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 232, 232);
+    padding-bottom: 20px;
+}
+.contenant1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+}
+.titre2 {
+    width: 60%;
+    font-size: 30px;
+    width: fit-content;
+}
+.lien2 {
+    width: 20%;
+    border: 3px solid darkorange;
+    text-align: center;
+    background-color: darkorange;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: .3s;
+}
+.lien2:hover {
+    background-color: transparent;
+    border-color: darkorange;
+    color: darkorange;
+    transition: .3s;
+}
+.contenant2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.contenant2-1 {
+    width: 30%;
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 40px;
+    transition: 1s;
+}
+.contenant2-2 {
+    width: 30%;
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 40px;
+    transition: 1s;
+}
+.contenant2-3 {
+    width: 30%;
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 40px;
+    transition: 1s;
+}
+.contenant2-4 {
+    width: 30%;
+    border: 1px solid white;
+    background-color: white;
+    padding: 40px;
+    transition: 1s;
+}
+.contenant2-5 {
+    width: 30%;
+    border: 1px solid white;
+    background-color: white;
+    padding: 40px;
+    transition: 1s;
+}
+.contenant2-6 {
+    width: 30%;
+    border: 1px solid white;
+    background-color: white;
+    padding: 40px;
+    transition: 1s;
+}
+.contenant2-1:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.contenant2-2:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.contenant2-3:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.contenant2-4:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.contenant2-5:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.contenant2-6:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.image1 {
+    padding-bottom: 10px;
+}
+.titre3 {
+    padding-bottom: 10px;
+}
+.par3 {
+    padding-bottom: 10px;
+}
+.par2 {
+    padding-bottom: 10px;
+}
+.lien3 {
+    color: darkorange;
+    text-decoration: none;
+}
+.lien3:hover {
+    color: black;
+}
+.contenant3-1 {
+    display: flex;
+    flex-direction: row;
+}
